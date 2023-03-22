@@ -7,7 +7,8 @@ from pathlib import Path
 import os
 from scripts.utils import file_writer, get_soup, esearch
 
-base_dir = Path(r"C:\Users\Client\Documents\Entrez scraper")
+# place the path to your base directory
+base_dir = Path(r"\path\to\base\directory")
 data_dir = base_dir / "data"
 
 # writing headers to csv file
@@ -26,7 +27,7 @@ else:
 # and retrieve the webenv and querykey from the history
 webenv, query_key, count = esearch(search_term='metazoa', db='nucleotide')
 
-# setting ret_max to X. N.B: the maximum ret_max is 10,000 and is kind of slow
+# setting ret_max to 10000. N.B: the maximum ret_max is 10,000 and is kind of slow
 ret_max = 10000
 
 # i.e from 0 till the count
