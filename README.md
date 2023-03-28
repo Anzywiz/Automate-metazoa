@@ -28,4 +28,4 @@ This script filters and rank the `esummary.csv` data based on the presence of so
  It creates a `score` column and if the row have the required variable, the score column would increment accordingly.  
  It then prints the score column greater than 0 to rank them 
 
-![image](https://user-images.githubusercontent.com/109805657/228118862-72c7c616-e1ad-41d8-b555-a56b22e085a8.png)
+![image](https://user-images.githubusercontent.com/109805657/228125892-0adffc14-3d28-47a1-ac6f-90f8254f62fa.png)
