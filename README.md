@@ -3,7 +3,7 @@ A python-based system to scrape the metazoan species from INSDC , filter and ran
 
 
 ## Data folder
-it contains the `esummary.csv` file which was used for the analysis  
+It contains the `esummary.csv` file which was used for the analysis  
 
 
 ## Scripts folder
